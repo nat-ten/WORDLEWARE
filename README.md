@@ -2,6 +2,7 @@
 DON'T RUN THIS IN AN UNPROTECTED ENVIRONMENT. THIS PROGRAM DOES NOT STORE THE KEY, SO IF IT CRASHES OR YOU CLOSE IT PREMATURELY, DATA WILL BE LOST.
 
 Windows Ransomware where the ransom is a game of Wordle.
+
 Targeted extensions include:
 ".jpg, .txt, .ppt, .zip, .7z, .pdf, .docx, .PNG, .png, .log, .xlsx, .flac, .mp4, .mp3, .c, .gif, .doc, .pptx, .wav, .js, .avi, .cpp, .dat, .raw"
 
