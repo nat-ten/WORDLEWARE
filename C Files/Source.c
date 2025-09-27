@@ -9,7 +9,7 @@
 #define WINDOW_HEIGHT 600
 
 const char g_szClassName[] = "windowClass";
-WCHAR listOfFileExtensions[] = L".jpg.txt.ppt.zip.7z.pdf.docx.PNG.png.log.xlsx.flac.mp4.mp3.c.gif.doc.pptx.wav.js.avi.cpp";
+WCHAR listOfFileExtensions[] = L".jpg.txt.ppt.zip.7z.pdf.docx.PNG.png.log.xlsx.flac.mp4.mp3.c.gif.doc.pptx.wav.js.avi.cpp.dat.raw.json";
 
 WNDCLASSEX wc;
 HWND mainHWND;
@@ -307,4 +307,5 @@ LRESULT CALLBACK SubWndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam) {
     }
 
     return editDefProc(hwnd, msg, wParam, lParam);
+
 }
