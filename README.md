@@ -9,3 +9,7 @@ Targeted extensions include:
 Heavily inspired by Rensenware: https://github.com/0x00000FF/rensenware-cut
 
 When WORDLEWARE is run, it will encrypt as many files as it can in the user's directory using AES 256 Encryption.
+If the user does not correctly guess the answer in 6 guesses, the game is reset and a new word is chosen. The program will only decrypt the files if a game is won.
+
+List of valid words: https://gist.github.com/dracos/dd0668f281e685bad51479e5acaadb93
+List of possible answers: https://gist.github.com/cfreshman/a03ef2cba789d8cf00c08f767e0fad7b
