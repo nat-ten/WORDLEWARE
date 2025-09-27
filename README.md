@@ -9,7 +9,7 @@ Targeted extensions include:
 .jpg, .txt, .ppt, .zip, .7z, .pdf, .docx, .PNG, .png, .log, .xlsx, .flac, .mp4, .mp3, .c, .gif, .doc, .pptx, .wav, .js, .avi, .cpp, .dat, .raw, .json, .java, .class, .xml, .html, .dll
 
 When WORDLEWARE is run, it will encrypt as many files as it can in the user's directory using AES 256 Encryption.
-If the user does not correctly guess the answer in 6 guesses, the game is reset and a new word is chosen. The program will only decrypt the files if a game is won.
+If the user does not correctly guess the answer in 6 guesses, the game is reset and a new word is chosen. Words are chosen from a subsection of a string table in the resource table, and this same table is used to validate guesses (in Wordle, only real words are allowed to be used as guesses). The program will only decrypt the files if a game is won.
 
 List of valid words retrieved from: https://gist.github.com/dracos/dd0668f281e685bad51479e5acaadb93
 
