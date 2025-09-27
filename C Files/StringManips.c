@@ -77,7 +77,6 @@ void GetTargetDirectory(WCHAR* targetDirectory) {
 	//Form WCHAR array that will hold the directory
 	wcscpy(targetDirectory, L"C:\\Users\\");
 	wcscat(targetDirectory, username);
-	wcscat(targetDirectory, L"\\Users");
 }
 
 bool MatchesFileExtension(WCHAR fileExtension[], WCHAR listOfExtensions[]) { //checks if a given file name has a file extension that matches one in a given list
@@ -113,4 +112,5 @@ bool MatchesFileExtension(WCHAR fileExtension[], WCHAR listOfExtensions[]) { //c
 		index++;
 	}
 	return fileExtensionPresent;
+
 }
