@@ -6,7 +6,7 @@ THIS PROGRAM DOES NOT STORE THE KEY - IF IT CRASHES OR YOU CLOSE IT WITHOUT WINN
 Windows Ransomware where the ransom is a game of Wordle. Written in C using WINAPI.
 
 Targeted extensions include:
-.jpg, .txt, .ppt, .zip, .7z, .pdf, .docx, .PNG, .png, .log, .xlsx, .flac, .mp4, .mp3, .c, .gif, .doc, .pptx, .wav, .js, .avi, .cpp, .dat, .raw
+.jpg, .txt, .ppt, .zip, .7z, .pdf, .docx, .PNG, .png, .log, .xlsx, .flac, .mp4, .mp3, .c, .gif, .doc, .pptx, .wav, .js, .avi, .cpp, .dat, .raw, .json
 
 When WORDLEWARE is run, it will encrypt as many files as it can in the user's directory using AES 256 Encryption.
 If the user does not correctly guess the answer in 6 guesses, the game is reset and a new word is chosen. The program will only decrypt the files if a game is won.
