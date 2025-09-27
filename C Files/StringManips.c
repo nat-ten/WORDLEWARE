@@ -8,7 +8,7 @@ WCHAR* AppendWildcard(WCHAR directory[]) { //appends a search wildcard to a WCHA
 }
 
 WCHAR* AppendNewFileExtension(WCHAR file[]) { //appends .ware extension to a WCHAR array and returns it
-	wcscat(file, L".ware");
+	wcscat(file, L".WORDLEWARE");
 
 	return file;
 }
@@ -114,3 +114,4 @@ bool MatchesFileExtension(WCHAR fileExtension[], WCHAR listOfExtensions[]) { //c
 	return fileExtensionPresent;
 
 }
+
