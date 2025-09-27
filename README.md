@@ -2,6 +2,7 @@
 DON'T RUN THIS IN AN UNPROTECTED ENVIRONMENT. THIS PROGRAM DOES NOT STORE THE KEY - IF IT CRASHES OR YOU CLOSE IT WITHOUT WINNING, DATA WILL BE LOST.
 
 Windows Ransomware where the ransom is a game of Wordle.
+
 Written in C using WINAPI.
 
 Targeted extensions include:
